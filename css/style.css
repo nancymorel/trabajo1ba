@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:ital,wght@0,100;1,300 & display=swap');
+
+
+body{
+    
+    background-color: rgb(221, 241, 241);
+    font-family:'Roboto', sans-serif;
+    font-size: medium;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.navbar{
+    background-color: rgb(101, 172, 81);
+    color: #edf5f3;
+    width: 1600px;
+    text-decoration: none;
+    
+}
+.navbar a{
+    color: rgb(213, 223, 230);
+    text-decoration: none;
+    text-align: center;
+    margin: 100px;
+}
+h1{
+    text-align: center;
+    color: rgb(0, 8, 7);
+}
+
+.subtitulo{
+    text-align: center;
+    color: rgb(6, 112, 68);
+}
+
+.links_navegacion{
+    list-style: none;
+    text-decoration: none;
+}
+
+li a{
+    color: aliceblue;
+    text-decoration-line: none;
+}
