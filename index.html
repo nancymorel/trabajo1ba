@@ -29,7 +29,7 @@
         <section id="bienvenida">
             <h3 class="subtitulo">Disfrutemos de lo nuestro</h3>
             <div>
-                <img height="250px" src="./img/paisaje ocaso.jpg" alt="paisaje ocaso">
+                <img height="250px" src="./img/paisaje ocaso.jpg" class="imagen" alt="paisaje ocaso">
                 <p>
                     Visitar San Luis, conocer sus lugares turísticos es un camino de ida, por que la belleza de este lugar completamente increíble.
                 </p>
@@ -40,7 +40,7 @@
         <section id="introduccion">
             <div>
                 <p>
-                    Caracterizada por su clima mediterráneo con zonas templadas durante todo el año, esta provincia se encuentra al pie de las Sierras Grandes junto al río Chorrillos, al extremo de Punta de los Venados. Entre los mejores lugares dentro de la ciudad estan:
+                    Caracterizada por- su clima mediterráneo con zonas templadas durante todo el año, esta provincia se encuentra al pie de las Sierras Grandes junto al río Chorrillos, al extremo de Punta de los Venados. Entre los mejores lugares dentro de la ciudad estan:
                 </p>
                 <p>
                     <ul>
@@ -65,30 +65,34 @@
                     <p>
                         Se le llama Sierra de las Quijadas en San Luis a un circuito turístico con recursos paleontológicos y culturales imperdibles, además cuenta con restos fósiles y yacimientos históricos que hoy día son un testimonio palpable de la antigua ocupación humana en la tierra.                     El Parque Nacional Sierra de las Quijadas protege a unos cuantos kilómetros de su portal de acceso un atractivo lugar arqueológico que se caracteriza por la existencia de más de 20 hornillos que fueron utilizados por los Huarpes para la elaboración de piezas con cerámicas.
                     </p>
-                    <img height="250px" src="./img/Sierra-de-las-Quijadas-3.jpg" alt="paisaje sierra">
+                    <img id="imagen2" height="250px" src="./img/Sierra-de-las-Quijadas-3.jpg" alt="paisaje sierra">
                 </div>
                 <p> Encuentra mas info en <a class="links_navegacion" href="https://www.sanluis.gov.ar/" target="_blank">San Luis</a>.</p>
             </article>
         </section>
     </main>
     <section class="consulta">
-        <div>
-
-            <table class="tabla">
-                <tr>
-                    <th>Consultas</th>
-
-                </tr>
-                <tr>
-                    <td>Nombre: <input type="nombre"></td>
-                </tr>
-                <tr>
-                    <td>Email: <input type="email"></td>
-                </tr>
-            </table>
+        <div class="consulta">
+            <h4>Consultas:</h4>
             <form action="form">
-                    <label for="mensaje">Mensaje:</label>
-                    <input type="text" placeholder="ingrese su mensaje aqui" aria-label="ingrese su mensaje">
+                <div class="formulario">
+                    <div class="nombre">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" placeholder="mi nombre" aria-label="ingrese nombre">
+                    </div>
+                    <div class="nombre">
+                        <label for="apellido">Email:</label>
+                        <input type="text" placeholder="miemail@gmail.com" name="email" id="email" aria-label="ingrese su email">
+                    </div>
+
+                    <div class="contenido">
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="mi consulta aqui"></textarea>
+                        <button type="submit" class="boton-mensaje">Enviar</button>
+                    </div>
+
+                    </div>
+                </div>
             </form>
         </div>
     </section>
